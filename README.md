@@ -38,23 +38,23 @@ DrandOracle is deployed via CREATE2 at the same address on every chain:
 
 **Mainnets**
 
-| Network | Chain ID | Explorer |
-|---|---|---|
-| Optimism | 10 | [optimistic.etherscan.io](https://optimistic.etherscan.io/address/0x08366085a9fF9a5870F3cEbD9Fc2AF456572783C) |
-| Arbitrum One | 42161 | [arbiscan.io](https://arbiscan.io/address/0x08366085a9fF9a5870F3cEbD9Fc2AF456572783C) |
-| Base | 8453 | [basescan.org](https://basescan.org/address/0x08366085a9fF9a5870F3cEbD9Fc2AF456572783C) |
-| Polygon | 137 | [polygonscan.com](https://polygonscan.com/address/0x08366085a9fF9a5870F3cEbD9Fc2AF456572783C) |
-| BNB Chain | 56 | [bscscan.com](https://bscscan.com/address/0x08366085a9fF9a5870F3cEbD9Fc2AF456572783C) |
-| MegaETH | 4326 | [mega.etherscan.com](https://mega.etherscan.com/address/0x08366085a9fF9a5870F3cEbD9Fc2AF456572783C) |
+| Network      | Chain ID | Explorer                                                                                                      |
+| ------------ | -------- | ------------------------------------------------------------------------------------------------------------- |
+| Optimism     | 10       | [optimistic.etherscan.io](https://optimistic.etherscan.io/address/0x08366085a9fF9a5870F3cEbD9Fc2AF456572783C) |
+| Arbitrum One | 42161    | [arbiscan.io](https://arbiscan.io/address/0x08366085a9fF9a5870F3cEbD9Fc2AF456572783C)                         |
+| Base         | 8453     | [basescan.org](https://basescan.org/address/0x08366085a9fF9a5870F3cEbD9Fc2AF456572783C)                       |
+| Polygon      | 137      | [polygonscan.com](https://polygonscan.com/address/0x08366085a9fF9a5870F3cEbD9Fc2AF456572783C)                 |
+| BNB Chain    | 56       | [bscscan.com](https://bscscan.com/address/0x08366085a9fF9a5870F3cEbD9Fc2AF456572783C)                         |
+| MegaETH      | 4326     | [megaeth.blockscout.com](https://megaeth.blockscout.com/address/0x08366085a9fF9a5870F3cEbD9Fc2AF456572783C)   |
 
 **Testnets**
 
-| Network | Chain ID | Explorer |
-|---|---|---|
-| Ethereum Sepolia | 11155111 | [sepolia.etherscan.io](https://sepolia.etherscan.io/address/0x08366085a9fF9a5870F3cEbD9Fc2AF456572783C) |
-| Base Sepolia | 84532 | [sepolia.basescan.org](https://sepolia.basescan.org/address/0x08366085a9fF9a5870F3cEbD9Fc2AF456572783C) |
-| BNB Testnet | 97 | [testnet.bscscan.com](https://testnet.bscscan.com/address/0x08366085a9fF9a5870F3cEbD9Fc2AF456572783C) |
-| MegaETH Testnet | 6343 | [testnet.mega.etherscan.com](https://testnet.mega.etherscan.com/address/0x08366085a9fF9a5870F3cEbD9Fc2AF456572783C) |
+| Network          | Chain ID | Explorer                                                                                                                       |
+| ---------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| Ethereum Sepolia | 11155111 | [sepolia.etherscan.io](https://sepolia.etherscan.io/address/0x08366085a9fF9a5870F3cEbD9Fc2AF456572783C)                        |
+| Base Sepolia     | 84532    | [sepolia.basescan.org](https://sepolia.basescan.org/address/0x08366085a9fF9a5870F3cEbD9Fc2AF456572783C)                        |
+| BNB Testnet      | 97       | [testnet.bscscan.com](https://testnet.bscscan.com/address/0x08366085a9fF9a5870F3cEbD9Fc2AF456572783C)                          |
+| MegaETH Testnet  | 6343     | [megaeth-testnet-v2.blockscout.com](https://megaeth-testnet.blockscout.com/address/0x08366085a9fF9a5870F3cEbD9Fc2AF456572783C) |
 
 > Deploying to a new chain? The same address is guaranteed — see [Deploy](#deploy).
 
