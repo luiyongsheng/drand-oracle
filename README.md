@@ -4,6 +4,8 @@ On-chain oracle for verifying [drand](https://drand.love/) evmnet randomness bea
 
 Smart contracts can pull drand randomness immediately on-chain — no waiting for off-chain services to report back. Anyone can submit a drand round signature, and the contract verifies it using BLS signature verification over BN254 (via the EVM pairing precompile). Once verified, the derived randomness (`sha256` of the signature) is stored and available for any contract to read.
 
+> **Note:** This contract assumes you are familiar with how drand randomness works. The evmnet beacon produces a new round every **3 seconds**, and each round's randomness is publicly predictable once its signature is known. Consumer contracts must handle this carefully — for example, by committing to a future round before its randomness is revealed, and by tracking which rounds have already been consumed to prevent replay attacks. See [On-Chain Randomness Gotchas](https://docs.drand.love/blog/2025/01/16/on-chain-randomness-gotchas) for best practices.
+
 ## Features
 
 - **Trustless verification** — BLS signatures are verified on-chain against the drand evmnet public key. No off-chain trust assumptions.
