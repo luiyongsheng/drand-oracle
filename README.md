@@ -2,7 +2,7 @@
 
 On-chain oracle for verifying [drand](https://drand.love/) evmnet randomness beacons on any EVM chain.
 
-Anyone can submit a drand round signature. The contract verifies it on-chain using BLS signature verification over BN254 (via the EVM pairing precompile), then stores the derived randomness (`sha256` of the signature) for smart contracts to consume.
+Smart contracts can pull drand randomness immediately on-chain — no waiting for off-chain services to report back. Anyone can submit a drand round signature, and the contract verifies it using BLS signature verification over BN254 (via the EVM pairing precompile). Once verified, the derived randomness (`sha256` of the signature) is stored and available for any contract to read.
 
 ## Features
 
